@@ -54,7 +54,7 @@ const Notifications = {
 
         try {
             // VAPID公開鍵（Firebase ConsoleからWeb Push certificatesで取得）
-            const vapidKey = 'YOUR_VAPID_KEY'; // TODO: 実際のVAPIDキーに置き換え
+            const vapidKey = 'BL4d7INzsT6ZU9wIOnncJtjP7LY56CG0EIZTRFtLQZ8sMMmZHm0qjyk2_D4Q3KJDxqp6EaewMSZGI5wW41S6S7Q';
 
             const token = await this.messaging.getToken({
                 vapidKey: vapidKey,
