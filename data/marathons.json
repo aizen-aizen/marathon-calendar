@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06",
+  "lastUpdated": "2026-02-08",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -46,6 +46,17 @@
       "url": "https://kumamotojyo-marathon.jp/"
     },
     {
+      "name": "世界遺産姫路城マラソン",
+      "type": "フルマラソン",
+      "date": "2026-02-22",
+      "capacity": 9000,
+      "entryStart": "2025-08-04",
+      "entryDeadline": "2025-10-31（締切済）",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://himeji-marathon.jp/"
+    },
+    {
       "name": "大阪マラソン",
       "type": "フルマラソン",
       "date": "2026-02-22",
@@ -72,8 +83,8 @@
       "type": "フルマラソン",
       "date": "2026-03-08",
       "capacity": 20000,
-      "entryStart": "2025-09-19",
-      "entryDeadline": "2025-09-24",
+      "entryStart": "2025-08-12（アーリーエントリー）",
+      "entryDeadline": "2025-12-26（締切済）",
       "method": "抽選（一般枠3,500人）",
       "odds": "未定",
       "url": "https://womens-marathon.nagoya/"
@@ -93,12 +104,45 @@
       "name": "板橋Cityマラソン",
       "type": "フルマラソン",
       "date": "2026-03-15",
-      "capacity": 15000,
-      "entryStart": "2025-10月頃",
-      "entryDeadline": "未定",
+      "capacity": 10000,
+      "entryStart": "2025-08-01",
+      "entryDeadline": "2025-11-24（定員達成）",
       "method": "先着",
       "odds": "-",
       "url": "https://i-c-m.jp/"
+    },
+    {
+      "name": "とくしまマラソン",
+      "type": "フルマラソン",
+      "date": "2026-03-22",
+      "capacity": 8500,
+      "entryStart": "2025-09-30",
+      "entryDeadline": "2025-11-30（締切済）",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://www.tokushima-marathon.jp/"
+    },
+    {
+      "name": "さが桜マラソン",
+      "type": "フルマラソン",
+      "date": "2026-03-22",
+      "capacity": 8500,
+      "entryStart": "2025-10-01",
+      "entryDeadline": "定員達成次第終了",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://sagasakura-marathon.jp/"
+    },
+    {
+      "name": "ふくい桜マラソン",
+      "type": "フルマラソン",
+      "date": "2026-03-29",
+      "capacity": 10000,
+      "entryStart": "2025-09-12",
+      "entryDeadline": "2025-11-10（締切済）",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://www.fukui-sakura-marathon.jp/"
     },
     {
       "name": "チャレンジ富士五湖ウルトラマラソン",
@@ -145,12 +189,12 @@
       "url": "https://www.r-wellness.com/nobeyama/"
     },
     {
-      "name": "いわて銀河100kmウルトラマラソン",
+      "name": "いわて銀河ウルトラマラソン",
       "type": "ウルトラマラソン",
       "date": "2026-06-14",
-      "capacity": 2000,
-      "entryStart": "2025-09月頃",
-      "entryDeadline": "未定",
+      "capacity": 3000,
+      "entryStart": "2025-10-17",
+      "entryDeadline": "2026-04-30",
       "method": "先着",
       "odds": "-",
       "url": "https://www.iwate-ginga100.jp/"
@@ -171,7 +215,7 @@
       "type": "ウルトラマラソン",
       "date": "2026-06月中旬（予定）",
       "capacity": 1500,
-      "entryStart": "2026-02-01",
+      "entryStart": "2026-01-25（先行）/ 2026-02-01（一般）",
       "entryDeadline": "2026-03-02",
       "method": "先着",
       "odds": "-",
@@ -193,7 +237,7 @@
       "type": "フルマラソン",
       "date": "2026-08-30",
       "capacity": 20000,
-      "entryStart": "2026-03-下旬",
+      "entryStart": "2026-03月下旬",
       "entryDeadline": "未定",
       "method": "先着",
       "odds": "-",
@@ -219,6 +263,7 @@
       "entryDeadline": "未定",
       "method": "先着",
       "odds": "-",
+      "note": "第16回大会をもって終了予定",
       "url": "https://echigo-joetsu.com/100km/"
     },
     {
@@ -248,7 +293,7 @@
       "type": "フルマラソン",
       "date": "2026-10-25",
       "capacity": 28000,
-      "entryStart": "2026-04-頃",
+      "entryStart": "2026-04月頃",
       "entryDeadline": "未定",
       "method": "抽選",
       "odds": "未定",
@@ -303,8 +348,8 @@
       "type": "フルマラソン",
       "date": "2026-11-08",
       "capacity": 13000,
-      "entryStart": "2026-04-下旬",
-      "entryDeadline": "2026-05-下旬",
+      "entryStart": "2026-04月下旬",
+      "entryDeadline": "2026-05月下旬",
       "method": "抽選",
       "odds": "未定",
       "url": "https://www.f-marathon.jp/"
@@ -312,12 +357,12 @@
     {
       "name": "ちばアクアラインマラソン",
       "type": "フルマラソン",
-      "date": "2026-11月（予定）",
+      "date": "2026-11-08",
       "capacity": 20000,
-      "entryStart": "2026-03-頃",
+      "entryStart": "2026-03-15",
       "entryDeadline": "未定",
-      "method": "抽選",
-      "odds": "未定",
+      "method": "先着",
+      "odds": "-",
       "url": "https://chiba-aqualine-marathon.com/"
     },
     {
