@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="マラソン大会のお気に入り管理とステータス追跡">
+    <title>🏃 マイ大会 - マラソン大会カレンダー</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">🏃 マラソン大会カレンダー</a>
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link">大会一覧</a>
+                <a href="mypage.html" class="nav-link active">マイ大会</a>
+            </nav>
+            <div class="auth-section">
+                <div id="user-info" class="user-info hidden">
+                    <img id="user-avatar" class="user-avatar" src="" alt="User">
+                    <span id="user-name"></span>
+                </div>
+                <button id="login-btn" class="btn btn-primary">ログイン</button>
+                <button id="logout-btn" class="btn btn-secondary hidden">ログアウト</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="page-header">
+            <h1 class="page-title">⭐ マイ大会</h1>
+            <p class="page-subtitle">お気に入り登録した大会のステータスを管理</p>
+        </div>
+
+        <!-- 通知許可セクション -->
+        <div id="notification-prompt" class="notification-prompt hidden">
+            <div class="notification-content">
+                <span>🔔</span>
+                <div>
+                    <strong>通知を有効にしますか？</strong>
+                    <p>申込開始7日前・1日前にお知らせします</p>
+                </div>
+            </div>
+            <div class="notification-actions">
+                <button id="enable-notifications" class="btn btn-primary btn-sm">有効にする</button>
+                <button id="dismiss-notifications" class="btn btn-secondary btn-sm">後で</button>
+            </div>
+        </div>
+
+        <div id="login-prompt" class="login-prompt">
+            <p>ログインするとお気に入り大会を管理できます</p>
+            <button id="login-btn-main" class="btn btn-primary">Googleでログイン</button>
+        </div>
+
+        <div id="favorites-list" class="favorites-list hidden"></div>
+
+        <div id="empty-state" class="empty-state hidden">
+            <p>お気に入り登録した大会がありません</p>
+            <a href="index.html" class="btn btn-primary">大会一覧へ</a>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>読み込み中...</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 マラソン大会カレンダー</p>
+    </footer>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js"></script>
+
+    <!-- App Scripts -->
+    <script src="js/firebase-config.js"></script>
+    <script src="js/firestore.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/notifications.js"></script>
+    <script src="js/mypage.js"></script>
+</body>
+
+</html>

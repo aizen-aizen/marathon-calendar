@@ -3,9 +3,9 @@
 const Firestore = {
     favorites: {},
 
-    // お気に入りの読み込み
+    // お気に入りの読み込み（オブジェクト形式）
     async loadFavorites() {
-        if (!Auth.isLoggedIn()) return;
+        if (!Auth.isLoggedIn()) return [];
 
         try {
             const snapshot = await db
@@ -15,11 +15,16 @@ const Firestore = {
                 .get();
 
             this.favorites = {};
+            const favoritesArray = [];
             snapshot.forEach((doc) => {
-                this.favorites[doc.id] = doc.data();
+                const data = doc.data();
+                this.favorites[doc.id] = data;
+                favoritesArray.push({ id: doc.id, ...data });
             });
+            return favoritesArray;
         } catch (error) {
             console.error('お気に入りの読み込みエラー:', error);
+            return [];
         }
     },
 
@@ -98,6 +103,58 @@ const Firestore = {
             return await this.removeFavorite(marathonId);
         } else {
             return await this.addFavorite(marathonId, marathonData);
+        }
+    },
+
+    // ステータス更新
+    async updateStatus(marathonId, field, value) {
+        if (!Auth.isLoggedIn()) return false;
+
+        try {
+            const updateData = {
+                [`status.${field}`]: value,
+                updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+            };
+
+            await db
+                .collection('users')
+                .doc(Auth.currentUser.uid)
+                .collection('favorites')
+                .doc(marathonId)
+                .update(updateData);
+
+            // ローカルキャッシュも更新
+            if (this.favorites[marathonId]) {
+                if (!this.favorites[marathonId].status) {
+                    this.favorites[marathonId].status = {};
+                }
+                this.favorites[marathonId].status[field] = value;
+            }
+
+            return true;
+        } catch (error) {
+            console.error('ステータス更新エラー:', error);
+            return false;
+        }
+    },
+
+    // FCMトークンを保存
+    async saveFCMToken(token) {
+        if (!Auth.isLoggedIn()) return false;
+
+        try {
+            await db
+                .collection('users')
+                .doc(Auth.currentUser.uid)
+                .set({
+                    fcmToken: token,
+                    updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+                }, { merge: true });
+
+            return true;
+        } catch (error) {
+            console.error('FCMトークン保存エラー:', error);
+            return false;
         }
     }
 };

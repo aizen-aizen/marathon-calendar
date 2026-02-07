@@ -12,12 +12,23 @@ const Auth = {
             if (user) {
                 // ログイン時にお気に入りを読み込み
                 Firestore.loadFavorites().then(() => {
-                    App.render();
+                    // ページに応じてrenderを呼び出し
+                    if (typeof App !== 'undefined') {
+                        App.render();
+                    }
+                    if (typeof MyPage !== 'undefined') {
+                        MyPage.render();
+                    }
                 });
             } else {
                 // ログアウト時にお気に入りをクリア
                 Firestore.favorites = {};
-                App.render();
+                if (typeof App !== 'undefined') {
+                    App.render();
+                }
+                if (typeof MyPage !== 'undefined') {
+                    MyPage.render();
+                }
             }
         });
     },
@@ -37,13 +48,17 @@ const Auth = {
             userInfo.classList.remove('hidden');
             userName.textContent = user.displayName || 'ユーザー';
             userAvatar.src = user.photoURL || '';
-            filterFavoritesLabel.classList.remove('hidden');
+            if (filterFavoritesLabel) {
+                filterFavoritesLabel.classList.remove('hidden');
+            }
         } else {
             loginBtn.classList.remove('hidden');
             logoutBtn.classList.add('hidden');
             userInfo.classList.add('hidden');
-            filterFavoritesLabel.classList.add('hidden');
-            document.getElementById('filter-favorites').checked = false;
+            if (filterFavoritesLabel) {
+                filterFavoritesLabel.classList.add('hidden');
+                document.getElementById('filter-favorites').checked = false;
+            }
         }
     },
 
