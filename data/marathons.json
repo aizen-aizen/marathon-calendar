@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-08",
+  "lastUpdated": "2026-02-23",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -22,6 +22,17 @@
       "method": "先着",
       "odds": "-",
       "url": "https://saitama-marathon.jp/"
+    },
+    {
+      "name": "北九州マラソン",
+      "type": "フルマラソン",
+      "date": "2026-02-15",
+      "capacity": 12000,
+      "entryStart": "2025-08-08",
+      "entryDeadline": "2025-09-25（締切済）",
+      "method": "抽選",
+      "odds": "未定",
+      "url": "https://kitakyushu-marathon.jp/"
     },
     {
       "name": "京都マラソン",
@@ -90,6 +101,17 @@
       "url": "https://womens-marathon.nagoya/"
     },
     {
+      "name": "びわ湖マラソン",
+      "type": "フルマラソン",
+      "date": "2026-03-08",
+      "capacity": 7000,
+      "entryStart": "2025-08-01",
+      "entryDeadline": "2025-10-31（締切済）",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://biwako-marathon.com/"
+    },
+    {
       "name": "静岡マラソン",
       "type": "フルマラソン",
       "date": "2026-03-08",
@@ -110,6 +132,17 @@
       "method": "先着",
       "odds": "-",
       "url": "https://i-c-m.jp/"
+    },
+    {
+      "name": "かがわマラソン",
+      "type": "フルマラソン",
+      "date": "2026-03-15",
+      "capacity": 10000,
+      "entryStart": "2025-10-06",
+      "entryDeadline": "2025-11-24（定員達成）",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://kagawa-marathon.com/"
     },
     {
       "name": "とくしまマラソン",
@@ -161,7 +194,7 @@
       "date": "2026-04-19",
       "capacity": 14000,
       "entryStart": "2025-12-01",
-      "entryDeadline": "2026-01-25",
+      "entryDeadline": "2026-02-28（レイトエントリー締切）",
       "method": "先着",
       "odds": "-",
       "url": "https://www.kasumigaura-marathon.jp/"
@@ -237,7 +270,7 @@
       "type": "フルマラソン",
       "date": "2026-08-30",
       "capacity": 20000,
-      "entryStart": "2026-03月下旬",
+      "entryStart": "2026-03-29",
       "entryDeadline": "未定",
       "method": "先着",
       "odds": "-",
@@ -248,8 +281,8 @@
       "type": "ウルトラマラソン",
       "date": "2026-09月中旬（予定）",
       "capacity": 2500,
-      "entryStart": "2026-02月下旬（予想）",
-      "entryDeadline": "2026-07月頃（予想）",
+      "entryStart": "2026-02-27",
+      "entryDeadline": "2026-07-08",
       "method": "先着",
       "odds": "-",
       "url": "https://www.r-wellness.com/tango/"
@@ -298,6 +331,28 @@
       "method": "抽選",
       "odds": "未定",
       "url": "https://yokohamamarathon.jp/"
+    },
+    {
+      "name": "しまだ大井川マラソンinリバティ",
+      "type": "フルマラソン",
+      "date": "2026-10-25",
+      "capacity": 6000,
+      "entryStart": "2026-04-20（市民先行）/ 2026-05-01（一般）",
+      "entryDeadline": "2026-06-30",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://www.shimada-marathon.jp/"
+    },
+    {
+      "name": "東北・みやぎ復興マラソン",
+      "type": "フルマラソン",
+      "date": "2026-10月下旬（予定）",
+      "capacity": 12000,
+      "entryStart": "2026-04月頃",
+      "entryDeadline": "未定",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://www.fukko-marathon.jp/"
     },
     {
       "name": "金沢マラソン",
