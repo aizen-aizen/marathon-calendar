@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-08",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -194,7 +194,7 @@
       "date": "2026-04-19",
       "capacity": 14000,
       "entryStart": "2025-12-01",
-      "entryDeadline": "2026-02-28（レイトエントリー締切）",
+      "entryDeadline": "2026-02-28（レイトエントリー締切済）",
       "method": "先着",
       "odds": "-",
       "url": "https://www.kasumigaura-marathon.jp/"
@@ -220,6 +220,17 @@
       "method": "先着",
       "odds": "-",
       "url": "https://www.r-wellness.com/nobeyama/"
+    },
+    {
+      "name": "ANA洞爺湖マラソン",
+      "type": "フルマラソン",
+      "date": "2026-05-17",
+      "capacity": 4500,
+      "entryStart": "2026-02-01",
+      "entryDeadline": "2026-03-08（締切済）",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://www.toyako-marathon.jp/"
     },
     {
       "name": "いわて銀河ウルトラマラソン",
@@ -264,6 +275,17 @@
       "method": "先着",
       "odds": "-",
       "url": "https://saromanblue.jp/"
+    },
+    {
+      "name": "函館マラソン",
+      "type": "フルマラソン",
+      "date": "2026-06-28",
+      "capacity": 4000,
+      "entryStart": "2026-02-17",
+      "entryDeadline": "2026-04-17",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://hakodate-marathon.jp/"
     },
     {
       "name": "北海道マラソン",
