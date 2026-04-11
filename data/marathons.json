@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15",
+  "lastUpdated": "2026-04-11",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -338,8 +338,8 @@
       "type": "フルマラソン",
       "date": "2026-10-25",
       "capacity": 15000,
-      "entryStart": "2026-05月頃",
-      "entryDeadline": "未定",
+      "entryStart": "2026-04-16（水戸市民先行）/ 2026-04-24（一般）",
+      "entryDeadline": "2026-06-30",
       "method": "先着",
       "odds": "-",
       "url": "https://mitokomon-manyu-marathon.com/"
@@ -372,10 +372,11 @@
       "type": "フルマラソン",
       "date": "2026-10月下旬（予定）",
       "capacity": 12000,
-      "entryStart": "2026-04月頃",
-      "entryDeadline": "未定",
+      "entryStart": "2026-04-05",
+      "entryDeadline": "2026-07-22",
       "method": "先着",
       "odds": "-",
+      "note": "レイトエントリー：2026-07-23〜2026-08-18。先着順。",
       "url": "https://www.fukko-marathon.jp/"
     },
     {
@@ -383,11 +384,11 @@
       "type": "フルマラソン",
       "date": "2026-10-25",
       "capacity": 15000,
-      "entryStart": "2026-04月頃",
-      "entryDeadline": "2026-05月頃",
+      "entryStart": "2026-04-10",
+      "entryDeadline": "2026-05-20",
       "method": "抽選",
       "odds": "未定",
-      "note": "開催日確定：2026年10月25日（日）8:30スタート・15:30終了。",
+      "note": "開催日確定：2026年10月25日（日）8:30スタート・15:30終了。能登地域枠1,000人・連続落選者枠300人・地域ランナー枠1,000人あり。",
       "url": "https://kanazawa-marathon.jp/"
     },
     {
@@ -395,8 +396,8 @@
       "type": "フルマラソン",
       "date": "2026-11-01",
       "capacity": 13000,
-      "entryStart": "2026-04月上旬",
-      "entryDeadline": "未定",
+      "entryStart": "2026-04-04（富山県民先行）/ 2026-04-11（一般）",
+      "entryDeadline": "2026-06-30",
       "method": "先着",
       "odds": "-",
       "url": "https://www.toyamamarathon.com/"
@@ -404,9 +405,9 @@
     {
       "name": "下関海響マラソン",
       "type": "フルマラソン",
-      "date": "2026-11月上旬（予定）",
+      "date": "2026-11-01",
       "capacity": 10000,
-      "entryStart": "2026-05月頃",
+      "entryStart": "2026-05-15",
       "entryDeadline": "未定",
       "method": "先着",
       "odds": "-",
@@ -417,16 +418,17 @@
       "type": "フルマラソン",
       "date": "2026-11-08",
       "capacity": 15000,
-      "entryStart": "2026-04月頃",
-      "entryDeadline": "2026-05月頃",
+      "entryStart": "2026-04-08（岡山県民優先4千人）/ 2026-04-16（一般）",
+      "entryDeadline": "2026-05-18（一般）",
       "method": "抽選",
       "odds": "未定",
+      "note": "岡山県民優先枠：4/8正午〜4/15（抽選結果5/15通知）。一般枠：4/16〜5/18（抽選結果6/16通知）。",
       "url": "https://www.okayamamarathon.jp/"
     },
     {
       "name": "福岡マラソン",
       "type": "フルマラソン",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "capacity": 13000,
       "entryStart": "2026-04月下旬",
       "entryDeadline": "2026-05月下旬",
@@ -451,11 +453,11 @@
       "type": "フルマラソン",
       "date": "2026-11-15",
       "capacity": 20000,
-      "entryStart": "2026-04月中旬頃（予定）",
-      "entryDeadline": "未定",
+      "entryStart": "2026-04-17 正午",
+      "entryDeadline": "2026-06-01",
       "method": "抽選",
       "odds": "約2倍",
-      "note": "ランナー募集は4月中旬ごろ開始予定。3月下旬の総会で募集人数・スケジュール決定予定。シード枠有資格者には3月下旬にメール案内。",
+      "note": "抽選結果：2026-07-02（RUNNETよりメール通知）。参加料入金締切：2026-07-27。一般枠・沿道市民枠・シード枠・年代別チャレンジ枠・U30初出場枠・ふるさと納税枠あり。",
       "url": "https://kobe-marathon.net/"
     },
     {
@@ -463,8 +465,8 @@
       "type": "フルマラソン",
       "date": "2026-11月下旬（予定）",
       "capacity": 10000,
-      "entryStart": "2026-06月頃",
-      "entryDeadline": "2026-07月頃",
+      "entryStart": "2026-06-07（つくば市在住・在勤・在学先行）",
+      "entryDeadline": "定員達成次第終了",
       "method": "先着",
       "odds": "-",
       "url": "https://www.tsukuba-marathon.com/"
@@ -485,8 +487,8 @@
       "type": "フルマラソン",
       "date": "2026-12-06",
       "capacity": 20000,
-      "entryStart": "2026-春頃",
-      "entryDeadline": "未定",
+      "entryStart": "2026-04-04 20:00",
+      "entryDeadline": "2026-09-09",
       "method": "先着",
       "odds": "-",
       "url": "https://www.shonan-kokusai.jp/"
@@ -505,9 +507,9 @@
     {
       "name": "青島太平洋マラソン",
       "type": "フルマラソン",
-      "date": "2026-12月中旬（予定）",
+      "date": "2026-12-13（予定）",
       "capacity": 12000,
-      "entryStart": "2026-06月頃",
+      "entryStart": "2026-06-18 20:00",
       "entryDeadline": "未定",
       "method": "先着",
       "odds": "-",
@@ -516,7 +518,7 @@
     {
       "name": "奈良マラソン",
       "type": "フルマラソン",
-      "date": "2026-12月中旬（予定）",
+      "date": "2026-12-13",
       "capacity": 12000,
       "entryStart": "2026-05月頃",
       "entryDeadline": "未定",
