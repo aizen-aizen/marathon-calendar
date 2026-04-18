@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18",
+  "lastUpdated": "2026-04-19",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -400,18 +400,6 @@
       "method": "先着",
       "odds": "-",
       "url": "https://www.shimada-marathon.jp/"
-    },
-    {
-      "name": "東北・みやぎ復興マラソン",
-      "type": "フルマラソン",
-      "date": "2026-10月下旬（予定）",
-      "capacity": 12000,
-      "entryStart": "2026-04-05",
-      "entryDeadline": "2026-07-22",
-      "method": "先着",
-      "odds": "-",
-      "note": "レイトエントリー：2026-07-23〜2026-08-18。先着順。",
-      "url": "https://www.fukko-marathon.jp/"
     },
     {
       "name": "金沢マラソン",
