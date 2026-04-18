@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-18",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -233,6 +233,18 @@
       "url": "https://www.toyako-marathon.jp/"
     },
     {
+      "name": "第1回奈良ウルトラマラソン",
+      "type": "ウルトラマラソン",
+      "date": "2026-05-31",
+      "capacity": 3000,
+      "entryStart": "2025-10-31 20:00",
+      "entryDeadline": "2026-02-28（締切済）",
+      "method": "先着",
+      "odds": "-",
+      "note": "100kmコース。藤原宮跡スタート、奈良中南部の文化遺産を巡る。U25枠50名あり。",
+      "url": "https://www.r-wellness.com/nara/"
+    },
+    {
       "name": "いわて銀河ウルトラマラソン",
       "type": "ウルトラマラソン",
       "date": "2026-06-14",
@@ -282,7 +294,7 @@
       "date": "2026-06-28",
       "capacity": 4000,
       "entryStart": "2026-02-17",
-      "entryDeadline": "2026-04-17",
+      "entryDeadline": "2026-04-17（締切済）",
       "method": "先着",
       "odds": "-",
       "url": "https://hakodate-marathon.jp/"
@@ -321,6 +333,28 @@
       "odds": "-",
       "note": "第16回大会をもって終了予定",
       "url": "https://echigo-joetsu.com/100km/"
+    },
+    {
+      "name": "いわて盛岡シティマラソン",
+      "type": "フルマラソン",
+      "date": "2026-10-04",
+      "capacity": 6000,
+      "entryStart": "2026-04-01",
+      "entryDeadline": "2026-07-20",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://iwate-morioka-city-marathon.jp/"
+    },
+    {
+      "name": "新潟シティマラソン",
+      "type": "フルマラソン",
+      "date": "2026-10-11",
+      "capacity": 9000,
+      "entryStart": "2026-04-09 10:00",
+      "entryDeadline": "2026-06-30",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://runfes-niigata.com/"
     },
     {
       "name": "四万十川ウルトラマラソン",
@@ -414,6 +448,29 @@
       "url": "https://kaikyomarathon.jp/"
     },
     {
+      "name": "ぐんまマラソン",
+      "type": "フルマラソン",
+      "date": "2026-11-03",
+      "capacity": 5500,
+      "entryStart": "2026-04-09",
+      "entryDeadline": "2026-08-17（定員達成次第終了）",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://www.g-marathon.com/"
+    },
+    {
+      "name": "ちばアクアラインマラソン",
+      "type": "フルマラソン",
+      "date": "2026-11-08",
+      "capacity": 20000,
+      "entryStart": "2026-03-15（ちば県民先行枠）/ 2026-03-22（一般枠）",
+      "entryDeadline": "定員達成次第終了",
+      "method": "先着",
+      "odds": "-",
+      "note": "ちば県民先行枠は3/15 20:00〜、一般枠は3/22 20:00〜。「学生応援枠」「女性応援枠」「レイトエントリー枠」新設。",
+      "url": "https://chiba-aqualine-marathon.com/"
+    },
+    {
       "name": "おかやまマラソン",
       "type": "フルマラソン",
       "date": "2026-11-08",
@@ -430,23 +487,11 @@
       "type": "フルマラソン",
       "date": "2026-11-09",
       "capacity": 13000,
-      "entryStart": "2026-04月下旬",
+      "entryStart": "2026-04-20",
       "entryDeadline": "2026-05月下旬",
       "method": "抽選",
       "odds": "約2.07倍（2025年実績：応募26,882人/定員13,000人）",
       "url": "https://www.f-marathon.jp/"
-    },
-    {
-      "name": "ちばアクアラインマラソン",
-      "type": "フルマラソン",
-      "date": "2026-11-08",
-      "capacity": 20000,
-      "entryStart": "2026-03-15（ちば県民先行枠）/ 2026-03-22（一般枠）",
-      "entryDeadline": "定員達成次第終了",
-      "method": "先着",
-      "odds": "-",
-      "note": "ちば県民先行枠は3/15 20:00〜、一般枠は3/22 20:00〜。「学生応援枠」「女性応援枠」「レイトエントリー枠」新設。",
-      "url": "https://chiba-aqualine-marathon.com/"
     },
     {
       "name": "神戸マラソン",
@@ -505,6 +550,18 @@
       "url": "https://www.naha-marathon.jp/"
     },
     {
+      "name": "富士山マラソン",
+      "type": "フルマラソン",
+      "date": "2026-12-12",
+      "capacity": 7500,
+      "entryStart": "2026-04-20（河口湖町民限定・アーリー）/ 2026-05-07（国内一般）",
+      "entryDeadline": "2026-08-31",
+      "method": "先着",
+      "odds": "-",
+      "note": "第15回記念大会。新種目「絶景Walk/Run」追加し2日間開催（12/12〜13）。フルマラソン定員7,500人。",
+      "url": "https://mtfujimarathon.com/"
+    },
+    {
       "name": "青島太平洋マラソン",
       "type": "フルマラソン",
       "date": "2026-12-13（予定）",
@@ -520,10 +577,10 @@
       "type": "フルマラソン",
       "date": "2026-12-13",
       "capacity": 12000,
-      "entryStart": "2026-05月頃",
+      "entryStart": "2026-05-27（奈良県民枠・ふるさと納税枠）/ 2026-06-05（一般）",
       "entryDeadline": "未定",
-      "method": "抽選",
-      "odds": "未定",
+      "method": "先着",
+      "odds": "-",
       "url": "https://www.nara-marathon.jp/"
     },
     {
