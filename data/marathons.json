@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19",
+  "lastUpdated": "2026-04-22",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -269,10 +269,10 @@
     {
       "name": "隠岐の島ウルトラマラソン",
       "type": "ウルトラマラソン",
-      "date": "2026-06月中旬（予定）",
+      "date": "2026-06-21",
       "capacity": 1500,
       "entryStart": "2026-01-25（先行）/ 2026-02-01（一般）",
-      "entryDeadline": "2026-03-02",
+      "entryDeadline": "2026-03-02（締切済）",
       "method": "先着",
       "odds": "-",
       "url": "https://okinoshima-ultra.jp/"
@@ -305,16 +305,16 @@
       "date": "2026-08-30",
       "capacity": 20000,
       "entryStart": "2026-03-29 18:00（大会公式アプリ・国外個人）/ 2026-03-31 18:00（HP・視覚障がい者枠）",
-      "entryDeadline": "未定",
+      "entryDeadline": "2026-04-16（定員達成）",
       "method": "先着",
       "odds": "-",
-      "note": "参加料：国内16,500円・海外22,000円（チャリティ200円含む）。RUNNETの会員登録が必要。",
+      "note": "参加料：国内16,500円・海外22,000円（チャリティ200円含む）。RUNNETの会員登録が必要。チャリティエントリー・旅行会社プランは引き続き募集中。",
       "url": "https://hokkaido-marathon.com/"
     },
     {
       "name": "丹後100kmウルトラマラソン",
       "type": "ウルトラマラソン",
-      "date": "2026-09月中旬（予定）",
+      "date": "2026-09-20",
       "capacity": 2500,
       "entryStart": "2026-02-27",
       "entryDeadline": "2026-07-08",
@@ -325,13 +325,13 @@
     {
       "name": "えちご・くびき野100kmマラソン",
       "type": "ウルトラマラソン",
-      "date": "2026-10月（予定）",
+      "date": "2026-10-11",
       "capacity": 2000,
-      "entryStart": "未定",
-      "entryDeadline": "未定",
+      "entryStart": "2026-03-15（定員達成）",
+      "entryDeadline": "2026-03-17（定員達成）",
       "method": "先着",
       "odds": "-",
-      "note": "第16回大会をもって終了予定",
+      "note": "第16回大会（最終回）。3日で定員に達した。100kmペアリレー種目が新設。",
       "url": "https://echigo-joetsu.com/100km/"
     },
     {
@@ -476,7 +476,7 @@
       "date": "2026-11-09",
       "capacity": 13000,
       "entryStart": "2026-04-20",
-      "entryDeadline": "2026-05月下旬",
+      "entryDeadline": "2026-05-21（締切済）",
       "method": "抽選",
       "odds": "約2.07倍（2025年実績：応募26,882人/定員13,000人）",
       "url": "https://www.f-marathon.jp/"
@@ -496,7 +496,7 @@
     {
       "name": "つくばマラソン",
       "type": "フルマラソン",
-      "date": "2026-11月下旬（予定）",
+      "date": "2026-11-22",
       "capacity": 10000,
       "entryStart": "2026-06-07（つくば市在住・在勤・在学先行）",
       "entryDeadline": "定員達成次第終了",
@@ -529,9 +529,9 @@
     {
       "name": "NAHAマラソン",
       "type": "フルマラソン",
-      "date": "2026-12月上旬（予定）",
+      "date": "2026-12-06",
       "capacity": 30000,
-      "entryStart": "2026-07月頃",
+      "entryStart": "2026-07-01頃（先着）",
       "entryDeadline": "未定",
       "method": "先着",
       "odds": "-",
@@ -576,8 +576,8 @@
       "type": "ウルトラマラソン",
       "date": "2027-01-25",
       "capacity": 2500,
-      "entryStart": "2026-09月頃（予想）",
-      "entryDeadline": "未定",
+      "entryStart": "2025-10-01〜2025-11-28（締切済）",
+      "entryDeadline": "2025-11-28（締切済）",
       "method": "先着",
       "odds": "-",
       "url": "https://www.waido-miyako.com/"
