@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22",
+  "lastUpdated": "2026-04-30",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -211,6 +211,18 @@
       "url": "https://www.naganomarathon.gr.jp/"
     },
     {
+      "name": "鯖街道ウルトラマラソン",
+      "type": "ウルトラマラソン",
+      "date": "2026-05-17",
+      "capacity": 1000,
+      "entryStart": "2026-02-02",
+      "entryDeadline": "定員達成（締切済）",
+      "method": "先着",
+      "odds": "-",
+      "note": "Aコース77km（小浜〜京都出町柳）600名、Bコース約42km（梅ノ木〜京都出町柳）400名。第31回大会。Bコースは受付開始23分でSOLDOUT。",
+      "url": "https://saba-ultra.com/"
+    },
+    {
       "name": "野辺山高原100kmウルトラマラソン",
       "type": "ウルトラマラソン",
       "date": "2026-05-17",
@@ -250,7 +262,7 @@
       "date": "2026-06-14",
       "capacity": 3000,
       "entryStart": "2025-10-17",
-      "entryDeadline": "2026-04-30",
+      "entryDeadline": "2026-04-30（締切済）",
       "method": "先着",
       "odds": "-",
       "url": "https://www.iwate-ginga100.jp/"
@@ -581,6 +593,29 @@
       "method": "先着",
       "odds": "-",
       "url": "https://www.waido-miyako.com/"
+    },
+    {
+      "name": "高知龍馬マラソン2027",
+      "type": "フルマラソン",
+      "date": "2027-02-21",
+      "capacity": 10000,
+      "entryStart": "未定（例年9月頃）",
+      "entryDeadline": "未定",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://ryoma-marathon.jp/"
+    },
+    {
+      "name": "丹波篠山ABCマラソン2027",
+      "type": "フルマラソン",
+      "date": "2027年3月頃（予定）",
+      "capacity": 9000,
+      "entryStart": "未定（例年10月頃）",
+      "entryDeadline": "未定",
+      "method": "先着",
+      "odds": "-",
+      "note": "2026年大会（第46回）は9,443人が参加。毎年3月第1日曜日頃開催。篠山城跡コース。",
+      "url": "https://tambasasayama-abc-marathon.jp/"
     },
     {
       "name": "東京マラソン2027",
