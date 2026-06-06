@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-06-06",
   "marathons": [
     {
       "name": "別府大分毎日マラソン",
@@ -385,7 +385,7 @@
       "date": "2026-10-25",
       "capacity": 15000,
       "entryStart": "2026-04-16（水戸市民先行）/ 2026-04-24（一般）",
-      "entryDeadline": "2026-06-30",
+      "entryDeadline": "2026-04-27（定員達成・締切済）",
       "method": "先着",
       "odds": "-",
       "url": "https://mitokomon-manyu-marathon.com/"
@@ -395,11 +395,11 @@
       "type": "フルマラソン",
       "date": "2026-10-25",
       "capacity": 28000,
-      "entryStart": "2026-春〜初夏頃（各枠順次）",
-      "entryDeadline": "未定",
+      "entryStart": "2026-04-08（各枠順次）",
+      "entryDeadline": "2026-05-17（一般枠）（締切済）",
       "method": "抽選・先着（枠による）",
       "odds": "全体約1倍以下（2025年実績：応募27,507人/定員28,000人）※女性優先枠・県民枠等は抽選",
-      "note": "市民枠・県民枠・女性優先枠・チャリティ枠・ふるさと納税枠あり。抽選結果・入金確定は初夏〜夏頃。",
+      "note": "女性優先枠・市民枠・県民枠の抽選結果は5/14発表済。一般枠は5/17締切済。抽選結果・入金確定は初夏〜夏頃。",
       "url": "https://yokohamamarathon.jp/"
     },
     {
@@ -499,7 +499,7 @@
       "date": "2026-11-15",
       "capacity": 20000,
       "entryStart": "2026-04-17 正午",
-      "entryDeadline": "2026-06-01",
+      "entryDeadline": "2026-06-01（締切済）",
       "method": "抽選",
       "odds": "約2.5倍（2025年実績：応募51,206人/定員20,000人）",
       "note": "抽選結果：2026-07-02（RUNNETよりメール通知）。参加料入金締切：2026-07-27。一般枠・沿道市民枠・シード枠・年代別チャレンジ枠・U30初出場枠・ふるさと納税枠あり。",
@@ -587,9 +587,9 @@
       "name": "奈良マラソン",
       "type": "フルマラソン",
       "date": "2026-12-13",
-      "capacity": 12000,
+      "capacity": 11750,
       "entryStart": "2026-05-27（奈良県民枠・ふるさと納税枠）/ 2026-06-05（一般）",
-      "entryDeadline": "未定",
+      "entryDeadline": "2026-07-09",
       "method": "先着",
       "odds": "-",
       "url": "https://www.nara-marathon.jp/"
@@ -606,6 +606,39 @@
       "url": "https://www.waido-miyako.com/"
     },
     {
+      "name": "別府大分毎日マラソン2027",
+      "type": "フルマラソン",
+      "date": "2027-02-07",
+      "capacity": 3500,
+      "entryStart": "未定（例年8月末頃）",
+      "entryDeadline": "未定",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://www.betsudai.com/"
+    },
+    {
+      "name": "さいたまマラソン2027",
+      "type": "フルマラソン",
+      "date": "2027-02-14",
+      "capacity": 14000,
+      "entryStart": "未定（例年7月頃）",
+      "entryDeadline": "未定",
+      "method": "先着",
+      "odds": "-",
+      "url": "https://saitama-marathon.jp/"
+    },
+    {
+      "name": "京都マラソン2027",
+      "type": "フルマラソン",
+      "date": "2027-02-21",
+      "capacity": 16000,
+      "entryStart": "未定（7月以降発表予定）",
+      "entryDeadline": "未定",
+      "method": "抽選",
+      "odds": "未定",
+      "url": "https://kyoto-marathon.com/"
+    },
+    {
       "name": "高知龍馬マラソン2027",
       "type": "フルマラソン",
       "date": "2027-02-21",
@@ -615,6 +648,18 @@
       "method": "先着",
       "odds": "-",
       "url": "https://ryoma-marathon.jp/"
+    },
+    {
+      "name": "大阪マラソン2027",
+      "type": "フルマラソン",
+      "date": "2027-02-28",
+      "capacity": 35000,
+      "entryStart": "2026-07月下旬〜8月下旬（予定）",
+      "entryDeadline": "未定",
+      "method": "抽選",
+      "odds": "未定",
+      "note": "開催日確定：2027年2月28日（日）。大会要項等は2026年7月ごろ発表予定。",
+      "url": "https://www.osaka-marathon.com/"
     },
     {
       "name": "丹波篠山ABCマラソン2027",
@@ -637,20 +682,19 @@
       "entryDeadline": "2026-08-29",
       "method": "抽選",
       "odds": "非常に高い（数十万人の応募）",
-      "note": "第20回記念大会。チャリティランナーエントリーの詳細は2026年4月15日公開予定。一般エントリーは夏頃の見込み。",
+      "note": "第20回記念大会。",
       "url": "https://www.marathon.tokyo/20th/"
     },
     {
-      "name": "大阪マラソン2027",
+      "name": "名古屋ウィメンズマラソン2027",
       "type": "フルマラソン",
-      "date": "2027年（日程未定）",
-      "capacity": 35000,
-      "entryStart": "未定",
+      "date": "2027-03-14",
+      "capacity": 20000,
+      "entryStart": "未定（例年8月頃）",
       "entryDeadline": "未定",
       "method": "抽選",
       "odds": "未定",
-      "note": "日本陸上競技連盟に2027年大会として登録済み。詳細はまだ未発表。",
-      "url": "https://www.osaka-marathon.com/"
+      "url": "https://womens-marathon.nagoya/"
     }
   ]
 }
